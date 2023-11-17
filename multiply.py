@@ -1,4 +1,7 @@
 while True:
+    a=input("start or exit:")
+    if op=="exit":
+        break
     n=int(input("enter n: "))
     m=int(input("enter m: "))
 
@@ -6,7 +9,7 @@ while True:
         for j in range(1,m+1):
             print(i*j,end=" ")
         print()
-    break 
+    
 
 
 
