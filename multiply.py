@@ -1,6 +1,6 @@
 while True:
     a=input("start or exit:")
-    if op=="exit":
+    if a=="exit":
         break
     n=int(input("enter n: "))
     m=int(input("enter m: "))
